@@ -26,4 +26,5 @@ To meet the project objectives the following steps are required with an exceptio
 
 ## Standout Suggestions
 Similar to the previous project, I have the following suggestions for future improvement:
-
+1. The foremost improvement that can be done is the explanatory data analysis (EDA) part. The given dataset can be cleaned to improve the data quality.
+2. We can increase the search space for the hyperparameters (include different parameters) and the number of runs.

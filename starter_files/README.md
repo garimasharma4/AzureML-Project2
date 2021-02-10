@@ -24,12 +24,12 @@ To meet the project objectives the following steps are required with an exceptio
 
 The very first step performed is to go to Automate ML 'author' section and create an autoML experiment. For the we have to select a dataset. Here the bank marketing dataset is selected:
 
-  ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/01%20-%20AutoML%20-%20select%20dataset.JPG?raw=false)
+      ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/01%20-%20AutoML%20-%20select%20dataset.JPG?raw=false)
 
 
 Next step in creating an autoML run is to configure the run. Here, I created a new experiment. An experiment name, target column and the compute cluster are entered in their respective fields. A new compute cluster is created by clicking on the 'create a new compute'. Details provided in the next screenshot:
 
-  ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/02%20-%20create%20new%20experiment.JPG?raw=false)
+      ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/02%20-%20create%20new%20experiment.JPG?raw=false)
 
 
 A new compute cluster is created as shown below. Please note, after creating this compute cluster I modified it again to set the maximum number of nodes to 5. That screenshot is included:

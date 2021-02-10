@@ -22,7 +22,7 @@ To meet the project objectives the following steps are required with an exceptio
 7. Create and publish a pipeline
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Here is the link to the screencast recording: ![alt text](https://drive.google.com/file/d/1Awbl1MwVmkqfXtpu_XRZDo5WQvPddMvl/view?raw=false)
 
 ## Standout Suggestions
 Similar to the previous project, I have the following suggestions for future improvement:

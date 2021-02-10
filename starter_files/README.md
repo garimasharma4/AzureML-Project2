@@ -21,6 +21,24 @@ To meet the project objectives the following steps are required with an exceptio
 6. Consume model endpoints
 7. Create and publish a pipeline
 
+The very first step performed is to go to Automate ML 'author' section and create an autoML experiment. For the we have to select a dataset. Here the bank marketing dataset is selected.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/01%20-%20AutoML%20-%20select%20dataset.JPG?raw=false)
+
+Next step in creating an autoML is to configure the run. Here, create a new experiment by providing the experiment name, target column and the compute cluster.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/02%20-%20create%20new%20experiment.JPG?raw=false)
+
+
+![alt text](?raw=false)
+
+
+![alt text](?raw=false)
+
+
+![alt text](?raw=false)
+
+
+![alt text](?raw=false)
+
 ## Screen Recording
 Here is the link to the screencast recording: https://drive.google.com/file/d/1Awbl1MwVmkqfXtpu_XRZDo5WQvPddMvl/view
 

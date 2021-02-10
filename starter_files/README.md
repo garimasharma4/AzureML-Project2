@@ -21,6 +21,7 @@ To meet the project objectives the following steps are required with an exceptio
 6. Consume model endpoints
 7. Create and publish a pipeline
 
+### Create and run the automated machine learning experiment
 
 The very first step performed is to go to Automate ML 'author' section and create an autoML experiment. For the we have to select a dataset. Here the bank marketing dataset is selected.
       ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/01%20-%20AutoML%20-%20select%20dataset.JPG?raw=false)
@@ -43,13 +44,46 @@ This screenshot shows the additional configuration done while setting up the aut
 The dataset is now registered:
       ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/06%20-%20Registered%20dataset.JPG?raw=false)
 
-The experiment is now complete:
+The autoML run is now complete. The screenshot shows that the VotingEnsemble was the best model with accuracy of 0.91866:
       ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/07%20-%20Experiment%20is%20complete.JPG?raw=false)
 
-![alt text](?raw=false)
-![alt text](?raw=false)
-![alt text](?raw=false)
-![alt text](?raw=false)
+### Deploy the model
+Go to the models tab of the autoML run and select the topmost model on the list. It is the best model. In this case it is VotingEnsemble:
+      ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/08%20-%20Best%20Model%20is%20VotingEnsemble.JPG?raw=false)
+      
+The next step is to deploy this model. When deploying, I ensured that the compute type was Azure Compute Instance (ACI) and that the 'enable authentication' flag was checked.
+      ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/09%20-%20Deploy%20the%20model%20%2B%20ACI%20%2B%20enable%20authentication.JPG?raw=false)
+
+The model deployment is successfully triggered.
+      ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/10%20-%20Model%20deployment%20is%20triggered.JPG?raw=false)
+
+Prior to deploying a model the RESTful endpoint and the swagger URI are null.
+      ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/11%20-%20Endpoint%20before%20deployment.JPG?raw=false)
+
+After the deployment, the endpoint status is 'Healthy' and the RESTful endpoint is populated. Also, the Swagger URI are populated with the link to the swagger.json file.
+      ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/12%20-%20Endpoint%20after%20deployment.JPG?raw=false)
+
+### Enable Application Insights / Logging
+
+Download the config.json file and save it in the working directory .
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/13%20-%20Download%20config%20file.JPG?raw=false)
+
+Config.json file is in the same working directory (starter_files) as logs.py file
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/14%20-%20Config%20file%20in%20the%20same%20directory.JPG?raw=false)
+
+Logs are running
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/15%20-%20Logs%20are%20running%20(A).JPG?raw=false)
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/15%20-%20Logs%20are%20running%20(B).JPG?raw=false)
+
+The application insights is enabled and an application insights URL is generated
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/16%20-%20Application%20insights%20enabled.JPG?raw=false)
+
+### Swagger documentation
+
+After running the swagger.sh in gitbash, the localhost will run swagger-ui container
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/17%20-%20Swagger%20running%20on%20localhost.JPG?raw=false)
+
 ![alt text](?raw=false)
 ![alt text](?raw=false)
 ![alt text](?raw=false)

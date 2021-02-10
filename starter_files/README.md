@@ -21,22 +21,45 @@ To meet the project objectives the following steps are required with an exceptio
 6. Consume model endpoints
 7. Create and publish a pipeline
 
+Below are the detailed description of the steps taken to complete this project:
+
 The very first step performed is to go to Automate ML 'author' section and create an autoML experiment. For the we have to select a dataset. Here the bank marketing dataset is selected.
+
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/01%20-%20AutoML%20-%20select%20dataset.JPG?raw=false)
 
-Next step in creating an autoML is to configure the run. Here, create a new experiment by providing the experiment name, target column and the compute cluster.
+
+Next step in creating an autoML run is to configure the run. Here, I created a new experiment. An experiment name, target column and the compute cluster are entered in their respective fields. A new compute cluster is created by clicking on the 'create a new compute'. Details provided in the next screenshot.
+
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/02%20-%20create%20new%20experiment.JPG?raw=false)
 
 
-![alt text](?raw=false)
+A new compute cluster is created as shown below. Please note, after creating this compute cluster I modified it again to set the maximum number of nodes to 5. That screenshot is included.
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/03%20-%20create%20new%20compute%20cluster%20(A).JPG?raw=false)
+
+Compute cluster modified to have 5 maximum nodes.
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/03%20-%20create%20new%20compute%20cluster%20(B).JPG?raw=false)
+
+Compute cluster provided when creating the AutoML run:
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/04%20-%20create%20new%20experiment%20(B).JPG?raw=false)
+
+This screenshot shows the additional configuration done while setting up the autoML run.
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/05%20-%20Additional%20Configuration.JPG?raw=false)
 
 
 ![alt text](?raw=false)
-
-
 ![alt text](?raw=false)
-
-
+![alt text](?raw=false)
+![alt text](?raw=false)
+![alt text](?raw=false)
+![alt text](?raw=false)
+![alt text](?raw=false)
+![alt text](?raw=false)
+![alt text](?raw=false)
+![alt text](?raw=false)
 ![alt text](?raw=false)
 
 ## Screen Recording

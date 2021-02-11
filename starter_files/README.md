@@ -1,7 +1,8 @@
 # Azure Model Deployment Project
 
 ## Project Overview
-The objective of the project is to demonstrate skills in configuring, deploying and consuming a cloud-based machine learning model in Microsoft Azure using AutoML. For the purpose of this project I worked with the Bank Marketing Dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
+The objective of the project is to demonstrate skills in configuring, deploying and consuming a cloud-based machine learning model in Microsoft Azure using AutoML. For the purpose of this project I worked with the Bank Marketing Dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). For training the model, we used Azure autoML capability. The best model was identified, deployed and consumed. I also created a pipeline using 
+
 
 ## Architectural Diagram
 
@@ -125,7 +126,7 @@ The run shows the VotingEnsemble model accuracy of 0.94795
 ## Screen Recording
 Here is the link to the screencast recording: https://drive.google.com/file/d/1Awbl1MwVmkqfXtpu_XRZDo5WQvPddMvl/view
 
-## Standout Suggestions
+## Future Suggestions
 Similar to the previous project, I have the following suggestions for future improvement:
 1. The foremost improvement that can be done is the explanatory data analysis (EDA) part. The given dataset can be cleaned to improve the data quality.
 2. We can increase the search space for the hyperparameters (include different parameters) and the number of runs.

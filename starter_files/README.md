@@ -81,14 +81,42 @@ The application insights is enabled and an application insights URL is generated
 
 ### Swagger documentation
 
-After running the swagger.sh in gitbash, the localhost will run swagger-ui container
+After running the swagger.sh in gitbash, it initiates the swagger-ui container. The localhost will display the swagger-ui container.
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/17%20-%20Swagger%20running%20on%20localhost.JPG?raw=false)
 
-![alt text](?raw=false)
-![alt text](?raw=false)
-![alt text](?raw=false)
-![alt text](?raw=false)
-![alt text](?raw=false)
+Run the serve.py in git using python command.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/18%20-%20Logs%20running%20(python%20serve.py).JPG?raw=false)
+
+Swagger is running the deployed model.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/19%20-%20Swagger%20documentation.JPG?raw=false)
+
+More details on the input payload for executing the real-time machine learning service.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/20%20-%20More%20swagger%20documentation.JPG?raw=false)
+
+The endpoint.py file is run in the git bash to display result. The output is displayed below.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/21%20-%20Endpoint.py%20showing%20result.JPG?raw=false)
+
+### Create and publish a pipeline
+
+Create and run a pipeline for the deployed VotingEnsemble model.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/22%20-%20Pipeline%20is%20running.JPG?raw=false)
+
+Pipeline run is complete.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/23%20-%20pipeline%20complete%20(A).JPG?raw=false)
+
+Run the Restful endpoint pipeline. It is evident that the run was active and the REST endpoint is populated.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/24%20-%20Pipeline%20endpoint%20%2B%20Bank%20Marketing%20dataset%20%2B%20status%20is%20active.JPG?raw=false)
+
+The completed run is shown in the screenshot below.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/23%20-%20Pipeline%20complete%20(B).JPG?raw=false)
+
+The pictorial representation of the RESTful endpoint run is shown below.
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/23%20-%20Run%20complete.JPG?raw=false)
+
+The run shows the VotingEnsemble model accuracy of 0.94795
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/25%20-%20With%20AutoML%20(accuracy%200.94795).JPG?raw=false)
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/26%20-%20Final%20screen.JPG?raw=false)
 
 ## Screen Recording
 Here is the link to the screencast recording: https://drive.google.com/file/d/1Awbl1MwVmkqfXtpu_XRZDo5WQvPddMvl/view

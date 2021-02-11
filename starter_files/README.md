@@ -1,7 +1,7 @@
 # Azure Model Deployment Project
 
 ## Project Overview
-The objective of the project is to demonstrate skills in configuring, deploying and consuming a cloud-based machine learning model in Microsoft Azure using AutoML. For the purpose of this project I worked with the Bank Marketing Dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). For training the model, I used Azure autoML capability. The best model was identified, deployed and consumed. I also created and published a pipeline using Azure SDK libraries. 
+The objective of the project is to demonstrate skills in configuring, deploying and consuming a cloud-based machine learning model in Microsoft Azure using AutoML. For the purpose of this project I worked with the Bank Marketing Dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). For training the model, I used Azure autoML capability. The best model was identified, deployed and consumed. I also created and published a pipeline using Azure SDK libraries.
 
 ## Architectural Diagram
 
@@ -102,6 +102,8 @@ To consume the model, the endpoint.py file is run in the git bash. The output is
 
 ### Step 7. Create and publish a pipeline
 
+Please refer to the link to the jupyter notebook (https://github.com/garimasharma4/AzureML-Project2/blob/master/my-files/aml-pipelines-with-automated-machine-learning-step.ipynb) for exact details. Below are various screenshots requested as part of the project submission.
+
 Create and run a pipeline for the deployed VotingEnsemble model.
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/22%20-%20Pipeline%20is%20running.JPG?raw=false)
 
@@ -121,6 +123,23 @@ The run shows the VotingEnsemble model accuracy of 0.94795
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/25%20-%20With%20AutoML%20(accuracy%200.94795).JPG?raw=false)
 
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/26%20-%20Final%20screen.JPG?raw=false)
+
+As per the feedback including the following screenshots:
+"A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs"
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/28%20-%20RunWidget%20-%20pipeline%20run%20is%20submitted.JPG)
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/29%20-%20RunWidget%20runs.JPG)
+
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/30%20-%20RunWidget%20runs.JPG)
+
+"ML studio showing the pipeline endpoint as Active"
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/27%20-%20Active%20%2B%20Endpoint.JPG)
+
+"ML studio showing the scheduled run"
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/24%20-%20Pipeline%20endpoint%20%2B%20Bank%20Marketing%20dataset%20%2B%20status%20is%20active.JPG?raw=false)
+
+![alt text]()
+![alt text]()
 
 ## Screen Recording
 Here is the link to the screencast recording: https://drive.google.com/file/d/1Awbl1MwVmkqfXtpu_XRZDo5WQvPddMvl/view

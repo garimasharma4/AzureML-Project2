@@ -1,7 +1,7 @@
 # Azure Model Deployment Project
 
 ## Project Overview
-The objective of the project is to demonstrate skills in configuring, deploying and consuming a cloud-based machine learning model in Microsoft Azure using AutoML. For the purpose of this project I worked with the Bank Marketing Dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). For training the model, we used Azure autoML capability. The best model was identified, deployed and consumed. I also created and published a pipeline using Azure SDK libraries. 
+The objective of the project is to demonstrate skills in configuring, deploying and consuming a cloud-based machine learning model in Microsoft Azure using AutoML. For the purpose of this project I worked with the Bank Marketing Dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). For training the model, I used Azure autoML capability. The best model was identified, deployed and consumed. I also created and published a pipeline using Azure SDK libraries. 
 
 ## Architectural Diagram
 

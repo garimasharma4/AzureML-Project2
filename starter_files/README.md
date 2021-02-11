@@ -4,14 +4,12 @@
 The objective of the project is to demonstrate skills in configuring, deploying and consuming a cloud-based machine learning model in Microsoft Azure using AutoML. For the purpose of this project I worked with the Bank Marketing Dataset (https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model".
 
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/Architecture%20Diagram%20Project%202.png?raw=false)
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps.
 
-To meet the project objectives the following steps are required with an exception of the first authentication step. Because I used the virtual machines provided in the lab, authentication was already take care off and thus I was not required to do this step:
+To meet the project objectives the following steps are required with an exception of the first authentication step:
 
 1. Authentication
 2. Automated ML Experiment
@@ -21,7 +19,11 @@ To meet the project objectives the following steps are required with an exceptio
 6. Consume model endpoints
 7. Create and publish a pipeline
 
-### Create and run the automated machine learning experiment
+### Step 1. Authentication
+
+Because I used the virtual machines provided in the lab, authentication was already take care off and thus I was not required to do this step.
+
+### Step 2. Create and run the automated machine learning experiment
 
 The very first step performed is to go to Automate ML 'author' section and create an autoML experiment. For the we have to select a dataset. Here the bank marketing dataset is selected.
       ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/01%20-%20AutoML%20-%20select%20dataset.JPG?raw=false)
@@ -47,7 +49,7 @@ The dataset is now registered:
 The autoML run is now complete. The screenshot shows that the VotingEnsemble was the best model with accuracy of 0.91866:
       ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/07%20-%20Experiment%20is%20complete.JPG?raw=false)
 
-### Deploy the model
+### Step 3. Deploy the model
 Go to the models tab of the autoML run and select the topmost model on the list. It is the best model. In this case it is VotingEnsemble:
       ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/08%20-%20Best%20Model%20is%20VotingEnsemble.JPG?raw=false)
       
@@ -63,7 +65,7 @@ Prior to deploying a model the RESTful endpoint and the swagger URI are null.
 After the deployment, the endpoint status is 'Healthy' and the RESTful endpoint is populated. Also, the Swagger URI are populated with the link to the swagger.json file.
       ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/12%20-%20Endpoint%20after%20deployment.JPG?raw=false)
 
-### Enable Application Insights / Logging
+### Step 4. Enable Application Insights / Logging
 
 Download the config.json file and save it in the working directory .
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/13%20-%20Download%20config%20file.JPG?raw=false)
@@ -79,7 +81,7 @@ Logs are running
 The application insights is enabled and an application insights URL is generated
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/16%20-%20Application%20insights%20enabled.JPG?raw=false)
 
-### Swagger documentation
+### Step 5. Swagger documentation
 
 After running the swagger.sh in gitbash, it initiates the swagger-ui container. The localhost will display the swagger-ui container.
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/17%20-%20Swagger%20running%20on%20localhost.JPG?raw=false)
@@ -93,10 +95,12 @@ Swagger is running the deployed model.
 More details on the input payload for executing the real-time machine learning service.
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/20%20-%20More%20swagger%20documentation.JPG?raw=false)
 
-The endpoint.py file is run in the git bash to display result. The output is displayed below.
+### Step 6. Consume the model enpoints
+
+To consume the model, the endpoint.py file is run in the git bash. The output is displayed below.
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/21%20-%20Endpoint.py%20showing%20result.JPG?raw=false)
 
-### Create and publish a pipeline
+### Step 7. Create and publish a pipeline
 
 Create and run a pipeline for the deployed VotingEnsemble model.
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/22%20-%20Pipeline%20is%20running.JPG?raw=false)

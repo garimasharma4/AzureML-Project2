@@ -133,11 +133,11 @@ As per the feedback including the following screenshots:
 
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/30%20-%20RunWidget%20runs.JPG)
 
-"ML studio showing the pipeline endpoint as Active"
-![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/27%20-%20Active%20%2B%20Endpoint.JPG)
-
-"ML studio showing the scheduled run"
+"ML studio showing the pipeline endpoint as Active" and "ML studio showing the scheduled run"
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/24%20-%20Pipeline%20endpoint%20%2B%20Bank%20Marketing%20dataset%20%2B%20status%20is%20active.JPG?raw=false)
+
+Also, the endpoint is shown below in the notebook
+![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/27%20-%20Active%20%2B%20Endpoint.JPG)
 
 ![alt text]()
 ![alt text]()

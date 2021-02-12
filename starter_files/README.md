@@ -125,6 +125,7 @@ The run shows the VotingEnsemble model accuracy of 0.94795
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/26%20-%20Final%20screen.JPG?raw=false)
 
 As per the feedback including the following screenshots:
+
 "A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs"
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/28%20-%20RunWidget%20-%20pipeline%20run%20is%20submitted.JPG)
 

@@ -141,6 +141,7 @@ Also, the endpoint is shown below in the notebook
 
 ## Screen Recording
 Here is the link to the screencast recording: https://drive.google.com/file/d/1Awbl1MwVmkqfXtpu_XRZDo5WQvPddMvl/view
+Please refer to it's transcript here: https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/Screencast%20-%20Transcript.docx
 
 ## Future Suggestions
 Similar to the previous project, I have the following suggestions for future improvement:

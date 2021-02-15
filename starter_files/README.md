@@ -139,9 +139,6 @@ As per the feedback including the following screenshots:
 Also, the endpoint is shown below in the notebook
 ![alt text](https://github.com/garimasharma4/AzureML-Project2/blob/master/starter_files/screenshots/27%20-%20Active%20%2B%20Endpoint.JPG)
 
-![alt text]()
-![alt text]()
-
 ## Screen Recording
 Here is the link to the screencast recording: https://drive.google.com/file/d/1Awbl1MwVmkqfXtpu_XRZDo5WQvPddMvl/view
 
